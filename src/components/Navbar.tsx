@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -14,11 +15,11 @@ const Navbar = () => {
             </div>
             <div className="nav-right">
                 <ul className='hidden md:flex md:justify-center md:gap-x-[2.5rem]'>
-                    <li className=""><a href="/#">HOME</a></li>
-                    <li className=""><a href="/#about">ABOUT</a></li>
-                    <li className=""><a href="/#skills">PORTFOLIO</a></li>
-                    <li className=""><a href="/Jayraj_Borate_Resume.pdf" target="_blank">RESUME</a></li>
-                    <li className=""><a href="#footer">CONTACT</a></li>
+                    <li className=""><Link href="/#">HOME</Link></li>
+                    <li className=""><Link href="/#about">ABOUT</Link></li>
+                    <li className=""><Link href="/#skills">PORTFOLIO</Link></li>
+                    <li className=""><Link href="/Jayraj_Borate_Resume.pdf" target="_blank">RESUME</Link></li>
+                    <li className=""><Link href="#footer">CONTACT</Link></li>
                 </ul>
                 {/* <Image src="" alt="" /> */}
             </div>

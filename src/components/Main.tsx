@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react'
+import Link from 'next/link';
 
 const Main = () => {
     
@@ -13,16 +14,16 @@ const Main = () => {
                             <h1 className='bebas text-5xl sm:text-[5rem] leading-none'>JAYRAJ BORATE</h1>
                             <h2 className='bebas text-2xl sm:text-4xl leading-none'>WEB DEVELOPER</h2>
                             <div className='py-1 space-y-1 text-lg md:text-xl'>
-                                <p className='leading-none'>Hello there, I'm Jayraj and I am a</p>
+                                <p className='leading-none'>Hello there, I&apos;m Jayraj and I am a</p>
                                 <p className='leading-none'>passionate Web Developer.</p>
                             </div>
-                            <a href="/Jayraj_Borate_Resume.pdf" target="_blank">
+                            <Link href="/Jayraj_Borate_Resume.pdf" target="_blank">
                                 <div className='w-full flex justify-center md:justify-start'>
                                     <button className="cv mt-2 flex items-center gap-x-2 px-4 py-2 text-base">
                                         Download CV <img className="svg download w-4 h-4" src="/assets/download.svg" alt="download" />
                                     </button>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="hero md:flex justify-center items-center w-full md:w-1/2 hidden">
@@ -42,9 +43,9 @@ const Main = () => {
                         I have a strong passion for UI/UX design and development, and I am skilled in crafting interactive prototypes and creating user-focused designs. My skills in design tools include Adobe XD and Figma, enabling me to bring ideas to life effectively. <br />
                         I am dedicated to continuous learning and I strive to deliver impactful, user-centric solutions by combining technical expertise with a creative approach.
                         </p>
-                        <a href="/#footer">
+                        <Link href="/#footer">
                         <button className="contact px-4 py-2 text-sm sm:text-base">Contact me</button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

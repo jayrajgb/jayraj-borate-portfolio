@@ -5,6 +5,7 @@ import { z } from 'zod';
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from 'react-toastify';
+import Link from 'next/link';
 
 const trusted_domains = ["gmail.com", "yahoo.com", "yahoo.in", "outlook.com", "github.com", "icloud.com"];
 
@@ -31,7 +32,6 @@ const Footer = () => {
     const {
         register,
         handleSubmit,
-        control,
         reset,
         formState: { errors }
     } = useForm<z.infer<typeof formSchema>>({
@@ -90,7 +90,7 @@ const Footer = () => {
             toast.error("Something went wrong!", {
                 position: 'bottom-right'
             })
-            throw new Error('An unexpected error occurred.');
+            console.error("Form submission error:", error);
         }
     };
 
@@ -145,10 +145,10 @@ const Footer = () => {
                 </div>
 
                 <div className="links">
-                    <a href="https://github.com/jayrajgb" target='_blank'><img src="./assets/github.svg" alt="github" /></a>
-                    <a href="https://in.linkedin.com/in/jayraj-borate-433035232" target='_blank'><img src="./assets/linkedin.svg" alt="linkedin" /></a>
-                    <a href="" target='_blank'><img src="./assets/twitter.svg" alt="twitter" /></a>
-                    <a href="" target='_blank'><img src="./assets/discord.svg" alt="twitter" /></a>
+                    <Link href="https://github.com/jayrajgb" target='_blank'><img src="./assets/github.svg" alt="github" /></Link>
+                    <Link href="https://in.linkedin.com/in/jayraj-borate-433035232" target='_blank'><img src="./assets/linkedin.svg" alt="linkedin" /></Link>
+                    <Link href="" target='_blank'><img src="./assets/twitter.svg" alt="twitter" /></Link>
+                    <Link href="" target='_blank'><img src="./assets/discord.svg" alt="twitter" /></Link>
                 </div>
 
                 <div className="foot">
@@ -157,13 +157,13 @@ const Footer = () => {
                         <h2 className="hidden md:block"></h2>
                         <ul className='flex flex-col md:flex-row w-full md:w-auto md:text-3xl md:gap-x-8 text-xl'>
                             <div className='flex w-full justify-between md:gap-x-8'>
-                                <li className=""><a href="/#">HOME</a></li>
-                                <li className=""><a href="/#about">ABOUT</a></li>
-                                <li className=""><a href="/#skills">PORTFOLIO</a></li>
+                                <li className=""><Link href="/#">HOME</Link></li>
+                                <li className=""><Link href="/#about">ABOUT</Link></li>
+                                <li className=""><Link href="/#skills">PORTFOLIO</Link></li>
                             </div>
                             <div className='flex w-full justify-around md:gap-x-8'>
-                                <li className=""><a target="_blank" href="/Jayraj_Borate_Resume.pdf">RESUME</a></li>
-                                <li className=""><a href="/#footer">CONTACT</a></li>
+                                <li className=""><Link target="_blank" href="/Jayraj_Borate_Resume.pdf">RESUME</Link></li>
+                                <li className=""><Link href="/#footer">CONTACT</Link></li>
                             </div>
                         </ul>
                     </div>
