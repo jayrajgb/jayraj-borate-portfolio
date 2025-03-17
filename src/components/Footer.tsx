@@ -96,10 +96,10 @@ const Footer = () => {
 
     return (
         <div className='px-10 md:px-12'>
-            <footer id="footer" className='pt-20'>
+            <footer id="footer" className='pt-24'>
                 <div className="footer">
                     <h1 className="header text-5xl sm:text-[5rem]">Contact me</h1>
-                    <form className='py-8 flex flex-col w-full sm:w-3/5' onSubmit={handleSubmit(onSubmit)}>
+                    <form className='py-6 flex flex-col w-full sm:w-3/5' onSubmit={handleSubmit(onSubmit)}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block mb-2">Name</label>
                             <input 
@@ -135,7 +135,7 @@ const Footer = () => {
                         
                         <button 
                             type="submit" 
-                            className="contact mt-6 px-4 py-2 text-base max-w-1/2 self-center" 
+                            className="contact mt-4 px-4 py-2 text-base max-w-1/2 self-center" 
                             id="submit"
                             disabled={isSubmitting}
                         >
@@ -154,7 +154,9 @@ const Footer = () => {
                 <div className="foot">
                     <div className="line"></div>
                     <div className="foot-div px-0 py-2">
-                        <h2 className="hidden md:block"></h2>
+                        <div className="hidden md:block">
+                            <img src="/assets/JR.png" alt="JR" className='h-5' />
+                        </div>
                         <ul className='flex flex-col md:flex-row w-full md:w-auto md:text-3xl md:gap-x-8 text-xl'>
                             <div className='flex w-full justify-between md:gap-x-8'>
                                 <li className=""><Link href="/#">HOME</Link></li>

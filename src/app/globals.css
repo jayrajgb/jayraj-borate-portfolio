@@ -5,11 +5,19 @@
 :root {
   --mypurple: rgb(200, 0, 200);
   --mypurpleglow: rgb(225, 0, 225);
+  --mypurpledark: rgb(180, 0, 180);
+}
+
+@theme{
+  --color-mypurple: rgb(200, 0, 200);
+  --color-mypurpleglow: rgb(225, 0, 225);
+  --color-mypurpledark: rgb(180, 0, 180);
+  --font-bebas: 'Bebas Neue';
 }
 
 * {
   font-family: 'Poppins';
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bebas {

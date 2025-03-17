@@ -8,14 +8,15 @@ const Main = () => {
     return (
         <div className='w-full px-4 sm:px-10 md:px-12'>
             <main className='px-4 sm:px-6 md:px-8'>
-                <div id="home" className="home flex flex-col md:flex-row items-center justify-center py-10 md:py-24 min-h-[95vh]">
+                <div id="home" className="home flex flex-col md:flex-row items-center justify-center pt-24 min-h-[95vh]">
                     <div className="intro flex flex-col justify-center items-center md:items-center w-full md:w-1/2">
                         <div className='space-y-1 md:space-y-2 text-center md:text-left'>
                             <h1 className='bebas text-5xl sm:text-[5rem] leading-none'>JAYRAJ BORATE</h1>
                             <h2 className='bebas text-2xl sm:text-4xl leading-none'>WEB DEVELOPER</h2>
                             <div className='py-1 space-y-1 text-lg md:text-xl'>
-                                <p className='leading-none'>Hello there, I&apos;m Jayraj and I am a</p>
-                                <p className='leading-none'>passionate Web Developer.</p>
+                                <p className='leading-none'>Hello there, I&apos;m Jayraj</p>
+                                <p className='leading-none'>and I am a passionate</p>
+                                <p className='leading-none'>Web Developer.</p>
                             </div>
                             <Link href="/Jayraj_Borate_Resume.pdf" target="_blank">
                                 <div className='w-full flex justify-center md:justify-start'>
@@ -32,7 +33,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div id="about" className="section min-h-[40vh] py-24 md:min-h-screen flex flex-col md:flex-row items-center gap-x-8 md:py-16">
+                <div id="about" className="section min-h-[40vh] pt-24 md:min-h-screen flex flex-col md:flex-row items-center gap-x-8 md:pt-16">
                     <div className="section-image hidden md:flex md:justify-center md:items-center md:w-1/2">
                         <img className="image-style size-[15rem] sm:size-[18rem] md:size-[24rem] lg:size-[32rem] rounded-full" src="/assets/laptop2.jpg" alt="about" />
                     </div>
@@ -49,7 +50,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div id="skills" className="skills py-24 md:py-16">
+                <div id="skills" className="skills pt-24">
                     <h1 className="header text-5xl sm:text-[5rem] font-bold text-center sm:text-left mb-8">Skills</h1>
                     <div className="skill-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ml-4 md:ml-0">
                         <div className="skill-item flex justify-between items-center p-4 rounded-lg">
@@ -187,7 +188,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div id="projects" className="projects py-24">
+                <div id="projects" className="projects pt-24">
                     <h1 className="header text-5xl sm:text-[5rem] font-bold text-center sm:text-left mb-16 md:mb-8">Projects</h1>
                     <div className="project-container flex flex-col gap-12">
                         
