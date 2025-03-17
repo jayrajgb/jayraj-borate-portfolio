@@ -151,10 +151,10 @@ const Footer = () => {
                 </div>
 
                 <div className="links">
-                    <Link href="https://github.com/jayrajgb" target='_blank'><img src="./assets/github.svg" alt="github" /></Link>
-                    <Link href="https://in.linkedin.com/in/jayraj-borate-433035232" target='_blank'><img src="./assets/linkedin.svg" alt="linkedin" /></Link>
-                    <Link href="" target='_blank'><img src="./assets/twitter.svg" alt="twitter" /></Link>
-                    <Link href="" target='_blank'><img src="./assets/discord.svg" alt="twitter" /></Link>
+                    <Link href="https://github.com/jayrajgb" target='_blank'><img src="/assets/github.svg" alt="github" /></Link>
+                    <Link href="https://in.linkedin.com/in/jayraj-borate-433035232" target='_blank'><img src="/assets/linkedin.svg" alt="linkedin" /></Link>
+                    <Link href="" target='_blank'><img src="/assets/twitter.svg" alt="twitter" /></Link>
+                    <Link href="" target='_blank'><img src="/assets/discord.svg" alt="twitter" /></Link>
                 </div>
 
                 <div className="foot">

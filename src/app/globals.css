@@ -20,7 +20,7 @@
 
 .toast{
   font-family: var(--font-poppins) !important;
-  font-weight: 400 !important; /* thin */
+  font-weight: 400 !important;
 }
 
 * {

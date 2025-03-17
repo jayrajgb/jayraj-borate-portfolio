@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link';
 
 const Main = () => {
-    
+
     return (
         <div className='w-full px-4 sm:px-10 md:px-12'>
             <main className='px-4 sm:px-6 md:px-8'>
@@ -17,13 +17,13 @@ const Main = () => {
                                 <p className='leading-none'>Hello there, I&apos;m Jayraj and I am</p>
                                 <p className='leading-none'>a passionate Web Developer.</p>
                             </div>
-                            <Link href="/Jayraj_Borate_Resume.pdf" target="_blank">
-                                <div className='w-full flex justify-center md:justify-start'>
-                                    <button className="cv mt-2 flex items-center gap-x-2 px-4 py-2 text-base">
+                            <div className='w-full flex justify-center md:justify-start'>
+                                <button>
+                                    <Link href="/Jayraj_Borate_Resume.pdf" target="_blank" className="cv mt-2 flex items-center gap-x-2 px-4 py-2 text-base">
                                         Download CV <img className="svg download w-4 h-4" src="/assets/download.svg" alt="download" />
-                                    </button>
-                                </div>
-                            </Link>
+                                    </Link>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="hero md:flex justify-center items-center w-full md:w-1/2 hidden">
@@ -39,13 +39,15 @@ const Main = () => {
                     <div className="section-text w-full md:w-1/2 text-center md:text-left">
                         <h1 className="text-5xl sm:text-[5rem] font-bold mb-4">ABOUT ME</h1>
                         <p className="intro2 text-md md:text-xl mb-6">
-                        I am Jayraj Borate, an Electronics and Telecommunication Engineering student at VIT, Pune, with a strong foundation in Full Stack Web Development. I am proficient in skills including React.js for building dynamic user interfaces and Node.js for backend development. Currently, I am learning Next.js, a full-stack framework to enhance performance and streamline development process. <br />
-                        I have a strong passion for UI/UX design and development, and I am skilled in crafting interactive prototypes and creating user-focused designs. My skills in design tools include Adobe XD and Figma, enabling me to bring ideas to life effectively. <br />
-                        I am dedicated to continuous learning and I strive to deliver impactful, user-centric solutions by combining technical expertise with a creative approach.
+                            I am Jayraj Borate, an Electronics and Telecommunication Engineering student at VIT, Pune, with a strong foundation in Full Stack Web Development. I am proficient in skills including React.js for building dynamic user interfaces and Node.js for backend development. Currently, I am learning Next.js, a full-stack framework to enhance performance and streamline development process. <br />
+                            I have a strong passion for UI/UX design and development, and I am skilled in crafting interactive prototypes and creating user-focused designs. My skills in design tools include Adobe XD and Figma, enabling me to bring ideas to life effectively. <br />
+                            I am dedicated to continuous learning and I strive to deliver impactful, user-centric solutions by combining technical expertise with a creative approach.
                         </p>
-                        <Link href="/#footer">
-                        <button className="contact px-4 py-2 text-sm sm:text-base">Contact me</button>
-                        </Link>
+                        <button>
+                            <Link href="/#footer"  className="contact px-4 py-2 text-sm sm:text-base">
+                                Contact me
+                            </Link>
+                        </button>
                     </div>
                 </div>
 
@@ -190,7 +192,7 @@ const Main = () => {
                 <div id="projects" className="projects pt-24">
                     <h1 className="header text-5xl sm:text-[5rem] font-bold text-center sm:text-left mb-16 md:mb-8">Projects</h1>
                     <div className="project-container flex flex-col gap-12">
-                        
+
                         {/* GoRail */}
 
                         <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
@@ -211,8 +213,8 @@ const Main = () => {
                                 </div>
                             </div>
                             <img src="/assets/project11.png" alt="project11" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
-                        </div>   
-                        
+                        </div>
+
                         {/* Password Manager App */}
 
                         {/* <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
@@ -231,7 +233,7 @@ const Main = () => {
                             </div>
                             <img src="/assets/project10.png" alt="project10" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
                         </div> */}
-                        
+
                         {/* NewsNow */}
 
                         <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
@@ -251,7 +253,7 @@ const Main = () => {
                                 </div>
                             </div>
                             <img src="/assets/project9.png" alt="project9" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
-                        </div>       
+                        </div>
 
                         {/* Meme Generator App */}
 
@@ -290,8 +292,8 @@ const Main = () => {
                                 </div>
                             </div>
                             <img src="/assets/project7.png" alt="project7" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
-                        </div>                        
-                        
+                        </div>
+
                         {/* TicTacToe */}
 
                         <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
@@ -310,7 +312,7 @@ const Main = () => {
                             </div>
                             <img src="/assets/project6.png" alt="project6" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
                         </div>
-                        
+
                         {/* Weather App */}
 
                         <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
@@ -329,7 +331,7 @@ const Main = () => {
                             </div>
                             <img src="/assets/project5.png" alt="project5" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
                         </div>
-                        
+
                         {/* To Do List */}
 
                         <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
@@ -348,7 +350,7 @@ const Main = () => {
                             </div>
                             <img src="/assets/project4.png" alt="project4" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
                         </div>
-                        
+
                         {/* Spotify Clone */}
 
                         <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
@@ -409,7 +411,7 @@ const Main = () => {
                             <img src="/assets/project1.png" alt="project1" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
                         </div>
 
-                        
+
                     </div>
                 </div>
             </main>
