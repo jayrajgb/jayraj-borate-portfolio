@@ -8,15 +8,14 @@ const Main = () => {
     return (
         <div className='w-full px-4 sm:px-10 md:px-12'>
             <main className='px-4 sm:px-6 md:px-8'>
-                <div id="home" className="home flex flex-col md:flex-row items-center justify-center pt-24 min-h-[95vh]">
+                <div id="home" className="home flex flex-col md:flex-row items-center justify-center pt-20 md:pt-24 min-h-[95vh]">
                     <div className="intro flex flex-col justify-center items-center md:items-center w-full md:w-1/2">
                         <div className='space-y-1 md:space-y-2 text-center md:text-left'>
                             <h1 className='bebas text-5xl sm:text-[5rem] leading-none'>JAYRAJ BORATE</h1>
                             <h2 className='bebas text-2xl sm:text-4xl leading-none'>WEB DEVELOPER</h2>
                             <div className='py-1 space-y-1 text-lg md:text-xl'>
-                                <p className='leading-none'>Hello there, I&apos;m Jayraj</p>
-                                <p className='leading-none'>and I am a passionate</p>
-                                <p className='leading-none'>Web Developer.</p>
+                                <p className='leading-none'>Hello there, I&apos;m Jayraj and I am</p>
+                                <p className='leading-none'>a passionate Web Developer.</p>
                             </div>
                             <Link href="/Jayraj_Borate_Resume.pdf" target="_blank">
                                 <div className='w-full flex justify-center md:justify-start'>
