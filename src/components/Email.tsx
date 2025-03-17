@@ -109,7 +109,7 @@ import {
               </Row>
               <Row style={{ ...boxInfos, paddingTop: "2" }}>
                 <div style={{ textAlign: "center", width: "100%" }}>
-                  <Button href="https://jayraj-borate-portfolio.vercel.app/" target="_blank" style={button}>Visit Website</Button>
+                  <Button href="https://jayraj-borate.vercel.app/" target="_blank" style={button}>Visit Website</Button>
                 </div>
               </Row>
             </Section>
