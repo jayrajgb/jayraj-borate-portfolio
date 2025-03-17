@@ -29,7 +29,7 @@ const Sidebar = ({
 
                 <div className='w-full h-10 flex items-center rounded-md'>
                     <Link href="/" className='w-full'>
-                        <button className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
+                        <button onClick={handleClose} className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
                             Home
                         </button>
                     </Link>
@@ -37,7 +37,7 @@ const Sidebar = ({
 
                 <div className='w-full h-10 flex items-center rounded-md'>
                     <Link href="/#about" className='w-full'>
-                        <button className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
+                        <button onClick={handleClose} className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
                             About
                         </button>
                     </Link>
@@ -45,7 +45,7 @@ const Sidebar = ({
 
                 <div className='w-full h-10 flex items-center rounded-md'>
                     <Link href="/#skills" className='w-full'>
-                        <button className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
+                        <button onClick={handleClose} className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
                             Portfolio
                         </button>
                     </Link>
@@ -53,7 +53,7 @@ const Sidebar = ({
 
                 <div className='w-full h-10 flex items-center rounded-md'>
                     <Link href="/Jayraj_Borate_Resume.pdf" target='_blank' className='w-full'>
-                        <button className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
+                        <button onClick={handleClose} className='p-1 rounded-lg bebas text-lg md:text-2xl text-center w-full bg-white text-black focus:bg-neutral-200 hover:bg-neutral-200'>
                             Resume
                         </button>
                     </Link>
@@ -61,7 +61,7 @@ const Sidebar = ({
 
                 <div className='w-full h-10 rounded-md'>
                     <Link href="/#footer">
-                        <button className='bebas text-lg md:text-2xl rounded-lg px-5 py-1 w-full bg-mypurpleglow hover:bg-mypurple text-white'>
+                        <button onClick={handleClose} className='bebas text-lg md:text-2xl rounded-lg px-5 py-1 w-full bg-mypurpleglow hover:bg-mypurple text-white'>
                             Contact Me
                         </button>
                     </Link>

@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from 'react-toastify';
 import Link from 'next/link';
+import { Loader2 } from 'lucide-react';
 
 const trusted_domains = ["gmail.com", "yahoo.com", "yahoo.in", "outlook.com", "github.com", "icloud.com"];
 
@@ -54,7 +55,8 @@ const Footer = () => {
         } catch (error) {
             console.error("Form submission error:", error);
             toast.error("Submission Failed!", {
-                position: 'bottom-right'
+                position: 'bottom-right',
+                className: "toast"
             })
             resetForm();
         } finally {
@@ -81,14 +83,16 @@ const Footer = () => {
             }
 
             toast.success("Thank you. Visit Again.", {
-                position: 'bottom-right'
+                position: 'bottom-right',
+                className: "toast"
             })
 
             resetForm();
 
         } catch (error) {
             toast.error("Something went wrong!", {
-                position: 'bottom-right'
+                position: 'bottom-right',
+                className: "toast"
             })
             console.error("Form submission error:", error);
         }
@@ -132,15 +136,17 @@ const Footer = () => {
                             ></textarea>
                             {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message.message}</p>}
                         </div>
-                        
-                        <button 
-                            type="submit" 
-                            className="contact mt-4 px-4 py-2 text-base max-w-1/2 self-center" 
-                            id="submit"
-                            disabled={isSubmitting}
-                        >
-                            {isSubmitting ? "Submitting..." : "Submit"}
-                        </button>
+
+                        {isSubmitting ? (
+                            <button disabled id="submit" className="contact mt-4 px-4 py-2 text-base max-w-3/5 self-center flex justify-between gap-x-2">
+                            Please wait
+                            <Loader2 className="animate-spin" />
+                            </button>
+                        ) : (
+                            <button type="submit" id="submit" className="contact mt-4 px-4 py-2 text-base max-w-1/2 self-center">
+                            Submit
+                            </button>
+                        )}
                     </form>
                 </div>
 
