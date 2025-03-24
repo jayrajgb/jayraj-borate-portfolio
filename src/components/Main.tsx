@@ -215,7 +215,7 @@ const Main = () => {
 
                         {/* Password Manager App */}
 
-                        {/* <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
+                        <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
                             <div className="flex justify-around w-full md:block md:w-auto">
                                 <div className='px-4 sm:px-0'>
                                     <h2 className="bebas text-3xl md:text-5xl font-bold">Password Manager App</h2>
@@ -223,14 +223,16 @@ const Main = () => {
                                 </div>
                                 <div>
                                     <ul className="features text-sm pl-2 md:pl-0 md:text-xl">
-                                        <li>React | TailwindCSS | Express | Node | MongoDB</li>
-                                        <li></li>
-                                        <li></li>
+                                        <li>React | Express | Node | MongoDB</li>
+                                        <li>Full Stack MERN</li>
+                                        <li>Minimilistic UI</li>
+                                        <li>Context API</li>
+                                        <li>CRUD Operations</li>
                                     </ul>
                                 </div>
                             </div>
                             <img src="/assets/project10.png" alt="project10" className="w-full md:w-3/5 rounded-lg shadow-lg mt-6 mb-10" />
-                        </div> */}
+                        </div>
 
                         {/* NewsNow */}
 
