@@ -54,6 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <meta name="google-site-verification" content="P80yRnHQv1gkwKMsi7nQXD2M4rn1NJynpb-uAPmALwU" />
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={""}
