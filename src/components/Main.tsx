@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import { ArrowDownToLine, ArrowUpRight } from 'lucide-react';
 
 const Main = () => {
 
@@ -18,7 +19,7 @@ const Main = () => {
                             <div className='w-full flex justify-center md:justify-start'>
                                 <button>
                                     <Link href="/Jayraj_Borate_Resume.pdf" target="_blank" className="cv mt-2 flex items-center gap-x-2 px-4 py-2 text-base">
-                                        Download CV <img className="svg download w-4 h-4" src="/assets/download.svg" alt="download" />
+                                        Download CV <ArrowDownToLine size={22} />
                                     </Link>
                                 </button>
                             </div>
@@ -42,7 +43,7 @@ const Main = () => {
                             I am dedicated to continuous learning and I strive to deliver impactful, user-centric solutions by combining technical expertise with a creative approach.
                         </p>
                         <button>
-                            <Link href="/#footer"  className="contact px-4 py-2 text-sm sm:text-base">
+                            <Link href="/#footer" className="contact px-4 py-2 text-sm sm:text-base">
                                 Contact me
                             </Link>
                         </button>
@@ -196,7 +197,10 @@ const Main = () => {
                         <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
                             <div className="flex justify-around w-full md:block md:w-auto">
                                 <div className='px-4 sm:px-0'>
-                                    <h2 className="bebas text-3xl md:text-5xl font-bold">GoRail</h2>
+                                    <Link href={"https://e-ticketing-system-frontend.onrender.com/"} target='_blank' className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer">
+                                        GoRail
+                                        <ArrowUpRight className='hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
+                                    </Link>
                                     <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">2024</h4>
                                 </div>
                                 <div>
@@ -218,7 +222,10 @@ const Main = () => {
                         <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
                             <div className="flex justify-around w-full md:block md:w-auto">
                                 <div className='px-4 sm:px-0'>
-                                    <h2 className="bebas text-3xl md:text-5xl font-bold">Password Manager App</h2>
+                                    <Link href={"https://password-manager-frontend-jayrajgb.onrender.com/"} target='_blank' className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer">
+                                        Password Manager App
+                                        <ArrowUpRight className='hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
+                                    </Link>
                                     <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">2025</h4>
                                 </div>
                                 <div>
