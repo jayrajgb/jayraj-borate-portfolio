@@ -199,7 +199,7 @@ const Main = () => {
                                 <div className='px-4 sm:px-0'>
                                     <Link href={"https://e-ticketing-system-frontend.onrender.com/"} target='_blank' className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer">
                                         GoRail
-                                        <ArrowUpRight className='hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
+                                        <ArrowUpRight className='h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
                                     </Link>
                                     <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">2024</h4>
                                 </div>
@@ -224,7 +224,7 @@ const Main = () => {
                                 <div className='px-4 sm:px-0'>
                                     <Link href={"https://password-manager-frontend-jayrajgb.onrender.com/"} target='_blank' className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer">
                                         Password Manager App
-                                        <ArrowUpRight className='hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
+                                        <ArrowUpRight className='h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5' color="var(--mypurpleglow)" />
                                     </Link>
                                     <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">2025</h4>
                                 </div>
