@@ -155,12 +155,12 @@ const Main = () => {
                             </div>
                             <div className="w-1/2 justify-center skill-right flex gap-1">
                                 {
-                                    [...Array(2)].map((_, i) => (
+                                    [...Array(3)].map((_, i) => (
                                         <div key={i} className="dots w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
                                     ))
                                 }
                                 {
-                                    [...Array(3)].map((_, i) => (
+                                    [...Array(2)].map((_, i) => (
                                         <div key={i} className="dot2 w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
                                     ))
                                 }
@@ -174,12 +174,31 @@ const Main = () => {
                             </div>
                             <div className="w-1/2 justify-center skill-right flex gap-1">
                                 {
-                                    [...Array(3)].map((_, i) => (
+                                    [...Array(4)].map((_, i) => (
                                         <div key={i} className="dots w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
                                     ))
                                 }
                                 {
+                                    [...Array(1)].map((_, i) => (
+                                        <div key={i} className="dot2 w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
+                                    ))
+                                }
+                            </div>
+                        </div>
+
+                        <div className="skill-item flex justify-between items-center p-4 rounded-lg">
+                            <div className="w-1/2 skill-left flex items-center gap-3">
+                                <img src="/assets/mongodb.svg" alt="mysql" className="w-6 h-6 sm:w-8 sm:h-8" />
+                                <p className="text-2xl sm:text-3xl bebas">MongoDB</p>
+                            </div>
+                            <div className="w-1/2 justify-center skill-right flex gap-1">
+                                {
                                     [...Array(2)].map((_, i) => (
+                                        <div key={i} className="dots w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
+                                    ))
+                                }
+                                {
+                                    [...Array(3)].map((_, i) => (
                                         <div key={i} className="dot2 w-3 h-3 sm:w-4 sm:h-4 rounded-full"></div>
                                     ))
                                 }
