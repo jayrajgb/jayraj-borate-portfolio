@@ -307,11 +307,11 @@ const Main = () => {
                   <Link
                     href={"https://e-ticketing-system-frontend.onrender.com"}
                     target="_blank"
-                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                    className="group bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
                   >
                     GoRail
                     <ArrowUpRight
-                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      className="h-4 mt-0.5 md:h-full md:mt-0 group-hover:translate-x-1.5 duration-300 group-hover:-translate-y-1.5"
                       color="var(--mypurpleglow)"
                     />
                   </Link>
@@ -347,11 +347,11 @@ const Main = () => {
                       "https://password-manager-frontend-jayrajgb.onrender.com"
                     }
                     target="_blank"
-                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                    className="group bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
                   >
                     Password Manager App
                     <ArrowUpRight
-                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      className="h-4 mt-0.5 md:h-full md:mt-0 group-hover:translate-x-1.5 duration-300 group-hover:-translate-y-1.5"
                       color="var(--mypurpleglow)"
                     />
                   </Link>
@@ -386,11 +386,11 @@ const Main = () => {
                       "https://jayrajgb-newsnow.vercel.app"
                     }
                     target="_blank"
-                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                    className="group bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
                   >
                     NewsNow
                     <ArrowUpRight
-                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      className="h-4 mt-0.5 md:h-full md:mt-0 group-hover:translate-x-1.5 duration-300 group-hover:-translate-y-1.5"
                       color="var(--mypurpleglow)"
                     />
                   </Link>
@@ -535,11 +535,11 @@ const Main = () => {
                       "https://jayrajgb.github.io/To-Do"
                     }
                     target="_blank"
-                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                    className="group bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
                   >
-                    NewsNow
+                    To Do App
                     <ArrowUpRight
-                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      className="h-4 mt-0.5 md:h-full md:mt-0 group-hover:translate-x-1.5 duration-300 group-hover:-translate-y-1.5"
                       color="var(--mypurpleglow)"
                     />
                   </Link>
