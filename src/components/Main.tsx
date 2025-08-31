@@ -16,7 +16,7 @@ const Main = () => {
                 JAYRAJ BORATE
               </h1>
               <h2 className="bebas text-2xl sm:text-4xl leading-none">
-                WEB DEVELOPER
+                FULL STACK WEB DEVELOPER
               </h2>
               <div className="py-1 space-y-1 text-lg md:text-xl">
                 <p className="leading-none">
