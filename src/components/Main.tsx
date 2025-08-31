@@ -305,7 +305,7 @@ const Main = () => {
               <div className="flex justify-around w-full md:block md:w-auto">
                 <div className="px-4 sm:px-0">
                   <Link
-                    href={"https://e-ticketing-system-frontend.onrender.com/"}
+                    href={"https://e-ticketing-system-frontend.onrender.com"}
                     target="_blank"
                     className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
                   >
@@ -344,7 +344,7 @@ const Main = () => {
                 <div className="px-4 sm:px-0">
                   <Link
                     href={
-                      "https://password-manager-frontend-jayrajgb.onrender.com/"
+                      "https://password-manager-frontend-jayrajgb.onrender.com"
                     }
                     target="_blank"
                     className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
@@ -381,9 +381,19 @@ const Main = () => {
             <div className="project-item flex flex-col md:flex-row md:justify-evenly items-start md:items-center">
               <div className="flex justify-around w-full md:block md:w-auto">
                 <div className="px-4 sm:px-0">
-                  <h2 className="bebas text-3xl md:text-5xl font-bold">
+                  <Link
+                    href={
+                      "https://jayrajgb-newsnow.vercel.app"
+                    }
+                    target="_blank"
+                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                  >
                     NewsNow
-                  </h2>
+                    <ArrowUpRight
+                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      color="var(--mypurpleglow)"
+                    />
+                  </Link>
                   <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">
                     2024
                   </h4>
@@ -520,9 +530,19 @@ const Main = () => {
             <div className="project-item flex flex-col md:flex-row-reverse md:justify-evenly items-start md:items-center">
               <div className="flex justify-around w-full md:block md:w-auto">
                 <div className="px-4 sm:px-0">
-                  <h2 className="bebas text-3xl md:text-5xl font-bold">
-                    To Do List
-                  </h2>
+                  <Link
+                    href={
+                      "https://jayrajgb.github.io/To-Do"
+                    }
+                    target="_blank"
+                    className="bebas text-3xl md:text-5xl flex font-bold cursor-pointer"
+                  >
+                    NewsNow
+                    <ArrowUpRight
+                      className="h-4 mt-0.5 md:h-full md:mt-0 hover:translate-x-1.5 hover:duration-300 hover:-translate-y-1.5"
+                      color="var(--mypurpleglow)"
+                    />
+                  </Link>
                   <h4 className="bebas text-2xl md:text-3xl font-bold mb-3">
                     2024
                   </h4>
